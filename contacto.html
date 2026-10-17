@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portafolio profesional de Jorge David Oblitas Camargo, desarrollador web.">
+  <title>Jorge David Oblitas Camargo | Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Navegación principal">
+      <a class="brand" href="index.html"><span class="brand-dot" aria-hidden="true"></span> Jorge David Oblitas Camargo</a>
+      <button id="menuToggle" class="icon-button menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <ul id="navLinks" class="nav-links"><li><a href="index.html">Inicio</a></li><li><a href="sobre-mi.html">Sobre mí</a></li><li><a href="habilidades.html">Habilidades</a></li><li><a href="proyectos.html">Proyectos</a></li><li><a href="contacto.html" aria-current="page">Contacto</a></li><li><a href="github.html">GitHub</a></li></ul>
+      <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Cambiar tema" aria-pressed="false">☾</button>
+    </nav>
+  </header>
+  <main>
+    <section id="contacto" class="section shell" aria-labelledby="contactTitle"><div class="contact-panel"><div><p class="eyebrow">CONTACTO</p><h2 id="contactTitle">Hablemos.</h2><p>¿Tienes una idea o un proyecto? Escríbeme desde este formulario o contáctame directamente. <a class="text-link" href="mailto:oblitascamargojorgedavid@gmail.com">oblitascamargojorgedavid@gmail.com</a></p><p class="contact-note"></p></div><form id="contactForm" novalidate><div class="field"><label for="contactName">Tu nombre</label><input id="contactName" name="from_name" type="text" minlength="2" maxlength="80" required autocomplete="name"><small id="nameError" class="field-error"></small></div><div class="field"><label for="contactEmail">Tu correo electrónico</label><input id="contactEmail" name="reply_to" type="email" required autocomplete="email"><small id="emailError" class="field-error"></small></div><div class="field"><label for="contactMessage">Tu mensaje</label><textarea id="contactMessage" name="message" rows="4" minlength="10" maxlength="2000" required></textarea><small id="messageError" class="field-error"></small></div><button id="sendButton" class="button primary" type="submit">Enviar mensaje ↗</button><p id="formStatus" role="status" aria-live="polite"></p></form></div></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><p><strong>Jorge David Oblitas Camargo</strong><small>Portafolio de desarrollo web · 2026</small></p><a href="index.html">Volver arriba ↑</a></div></footer>
+</body>
+</html>

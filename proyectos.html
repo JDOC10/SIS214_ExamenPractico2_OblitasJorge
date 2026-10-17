@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portafolio profesional de Jorge David Oblitas Camargo, desarrollador web.">
+  <title>Jorge David Oblitas Camargo | Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Navegación principal">
+      <a class="brand" href="index.html"><span class="brand-dot" aria-hidden="true"></span> Jorge David Oblitas Camargo</a>
+      <button id="menuToggle" class="icon-button menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <ul id="navLinks" class="nav-links"><li><a href="index.html">Inicio</a></li><li><a href="sobre-mi.html">Sobre mí</a></li><li><a href="habilidades.html">Habilidades</a></li><li><a href="proyectos.html" aria-current="page">Proyectos</a></li><li><a href="contacto.html">Contacto</a></li><li><a href="github.html">GitHub</a></li></ul>
+      <button id="themeToggle" class="icon-button theme-toggle" type="button" aria-label="Cambiar tema" aria-pressed="false">☾</button>
+    </nav>
+  </header>
+  <main>
+    <section id="proyectos" class="section shell" aria-labelledby="projectsTitle"><div class="section-heading"><div><p class="eyebrow">PORTAFOLIO</p><h2 id="projectsTitle">Mis proyectos.</h2><p>Proyectos académicos reales que muestran mis conocimientos y experiencia.</p></div><div class="filter-wrap"><label for="projectSearch">Buscar proyectos</label><input id="projectSearch" type="search" placeholder="Buscar por nombre o tecnología..." autocomplete="off"></div></div><div id="projectGrid" class="project-grid" aria-live="polite"></div><p id="projectEmpty" class="empty" hidden>No hay proyectos que coincidan con tu búsqueda.</p></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><p><strong>Jorge David Oblitas Camargo</strong><small>Portafolio de desarrollo web · 2026</small></p><a href="index.html">Volver arriba ↑</a></div></footer>
+</body>
+</html>
